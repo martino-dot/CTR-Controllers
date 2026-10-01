@@ -1,0 +1,1 @@
+Essentially, you have to first delete any existing camera calibration files, then run the aruco marker test. Do the calibartion and ensure everything checks out after it is trained. Then use the "fix calibration" script to "fix" the file. THEN, it can be used in the claude sub directory.

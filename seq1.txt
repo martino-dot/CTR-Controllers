@@ -1,0 +1,24 @@
+# Example Movement Sequence
+ENABLE
+
+# Move X 50 units over 2 seconds (Speed 1500)
+X -50 2500
+
+# Pause for 1.5 seconds
+PAUSE 1.5
+
+# Move A and B axes simultaneously
+SYNC Y -100 Z 200 2000
+
+# Move C axis
+C 100 500
+
+A -200 500
+
+SYNC A 100 B 50 C 50 500
+
+HOME
+
+
+
+DISABLE

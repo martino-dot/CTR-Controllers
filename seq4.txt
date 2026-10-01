@@ -1,0 +1,27 @@
+
+
+# PAUSE 5
+
+SYNC A 100 B 50 C 50 500
+
+SYNC A 150 B 75 C -15 500
+
+SYNC X -50 Y -50 Z -50 A 10 B 10 C 10 1000
+
+HOME
+
+# Move X 50 units over 2 seconds (Speed 1500)
+X -50 2500
+
+# Pause for 1.5 seconds
+# PAUSE 1.5
+
+# Move A and B axes simultaneously
+SYNC Y -100 Z 200 1000
+
+# Move C axis
+C 100 250
+
+A -200 250
+
+HOME
